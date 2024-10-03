@@ -8,9 +8,9 @@ const Header = () => {
     navDialog.classList.toggle("hidden");
   };
   return (
-    <div className="border-b-2">
+    <div className="bg-white border-b-2 fixed top-0 left-0 w-full z-50 ">
       <nav>
-        <div className="hidden md:flex gap-20 justify-center items-center p-4 text-xl font-medium">
+        <div className="hidden md:flex gap-20 justify-center items-center p-4 text-xl font-medium ">
           <a href="/about">About</a>
           <a href="/skills">Skills</a>
           <a href="projects">Projects</a>
