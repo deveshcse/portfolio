@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaWhatsapp, FaSquarePhone } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
-
+import profileImage from "../assets/DeveshProfileImage.jpeg" 
 const About = () => {
   return (
     <div className=" grid md:grid-cols-2 gap-2 m-2 p-1 md:p-12">
@@ -61,7 +61,7 @@ const About = () => {
       </div>
       <div className="m-2 p-2 rounded-full md:p-12">
         <div>
-          <img className="rounded-full" src="src\assets\DeveshProfileImage.jpeg" alt="ProfileImage"></img>
+          <img className="rounded-full" src={profileImage} alt="ProfileImage"></img>
         </div>
       </div>
     </div>
