@@ -1,14 +1,12 @@
-import About from "./About"
+import Home from "./Home";
 import Header from "./Header";
+import About from "./About";
 const Body = () => {
   return (
     <div className="">
-      <div>
-        <Header />
-      </div>
-      <div>
-        <About />
-      </div>
+      <Header />
+      <Home />
+      <About />
     </div>
   );
 };
