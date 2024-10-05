@@ -15,8 +15,8 @@ const Home = () => {
           Hello👋, my name is{" "}
         </h3>
         <h2 className="font-semibold text-2xl text-gray-600">Devesh Mishra</h2>
-        <h1 className="font-Fjalla font-medium text-5xl">
-          I’m a full stack developer, specilised in frontend development of web
+        <h1 className="text-5xl">
+          I’m a frontend developer, with background in AI/ML and full stack development of web
           applications using React, Next.js, Node.js & more
         </h1>
 
@@ -37,8 +37,8 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="p-1">
-              <FaLinkedin size={34} color="#0077B5" />
+            <button className="p-1 flex flex-col items-center font-semibold">
+              <FaLinkedin size={34} color="#0077B5" /> <span> LinkedIn </span>
             </button>
           </a>
 
@@ -48,15 +48,15 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="p-1">
-              <FaGithub size={34} color="#333" />
+            <button className="p-1 flex flex-col items-center font-semibold">
+              <FaGithub size={34} color="#333" /> <span>Github</span>
             </button>
           </a>
 
           {/* Gmail */}
           <a href="mailto:d.mishra56603@gmail.com">
-            <button className="p-1">
-              <SiGmail size={34} color="#EA4335" />
+            <button className="p-1 flex flex-col items-center font-semibold">
+              <SiGmail size={34} color="#EA4335" /> <span>Email</span>
             </button>
           </a>
 
@@ -66,15 +66,15 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-green-500 rounded-full p-1">
-              <FaWhatsapp size={32} color="white" />
+            <button className="p-1 flex flex-col items-center font-semibold">
+              <FaWhatsapp size={32} color="white"  className="bg-green-500 rounded-full "/> <span>WhatsApp</span>
             </button>
           </a>
 
           {/* Phone */}
           <a href="tel:+91-7380406929">
-            <button className="flex items-center gap-1 font-poppins">
-              <FaSquarePhone size={36} color="#075E54" />
+            <button className="flex flex-col items-center font-semibold p-1">
+              <FaSquarePhone size={36} color="#075E54" /> <span>Phone</span>
             </button>
           </a>
         </div>
